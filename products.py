@@ -1,4 +1,6 @@
 import sqlite3
+import logins
+import feedbackScreen
 
 # Pcur.execute("CREATE TABLE PRODUITS(\
 # Id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,\
@@ -21,6 +23,14 @@ def see_Prod():
             for xi, yi in zip(x,y):
                 print(xi, yi)
             print("------------------------------------\n")
-    Pcur.commit()
+    # Pcur.commit()
+    print("Do you want to make a feedback on a given product?\n***********************************************")
+    sch = input("Feedback Y or N:")
+    if sch == 'Y' or sch =='y':
+        print("You can post your feedback")
+        feedbackScreen.add_Feedback(logins.login.var)
+    else:
+        print("No feedback Intended. Leaving. Bye!!!\n*******************************")
+        quit()
 def prod_edit():
     print("Means You are an Admin or Super User")
