@@ -71,5 +71,6 @@ def login():
     else:
         print(vcue)
         login.var = "{0}".format(vcue[0][1])
+        login.varu ='{0}'.format(vcue[0][3])
         print("WELCOME USER. Your personal info are such: \nUsername = {0}\nUser Type = {1}".format(vcue[0][1],vcue[0][3]))
         

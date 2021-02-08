@@ -1,5 +1,7 @@
 import logins
 import getpass
+import products
+import adminpan
 
 print("WELCOME TO PRODUCTFEED.COM PRODUCTS APPLICATION")
 print("***********************************************")
@@ -22,10 +24,13 @@ if int(choix) == 1 :
             print("Login failled")
         else:
             print("HERE WE GO DEAR {0}\n***********************************\n".format(logins.login.var.upper()))
-
-            #LIST OF OUR PRODUCTS
+            if logins.login.varu == 'S' or logins.login.varu == 'A':
+                adminpan.admin()
+            else:
+                #LIST OF OUR PRODUCTS
+                products.see_Prod()
     except AttributeError:
-        print("This is the first time you login")
+        print("Login completed successfully!")
 
 
 elif len(choix) > 1:
