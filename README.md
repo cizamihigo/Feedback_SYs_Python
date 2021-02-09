@@ -7,7 +7,7 @@
     🙋 if so?? how can we ensure of that???
      **answer** : By directly asking users 👥.
 ### Always they are in Webstites why using simple python? instead of bottle, django, FLASK and so on??
-            On the market they are many libraries, packages for python in terms of web development.
-            **KNOWING** that the logic for this system for being part of a standalone system or being part of a web system which is by deduction bigger than it, IS STILL THE SAME.
-            That's why we prefered using Normal Python and it's up to every one, to use the desired Framework to implement this system for a website using python.
+ On the market they are many libraries, packages for python in terms of web development.
+ **KNOWING** that the logic for this system for being part of a standalone system or being part of a web system which is by deduction bigger than it, IS STILL THE SAME.
+That's why we prefered using Normal Python and it's up to every one, to use the desired Framework to implement this system for a website using python.
   
